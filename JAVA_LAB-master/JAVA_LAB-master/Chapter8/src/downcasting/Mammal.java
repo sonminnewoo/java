@@ -1,5 +1,0 @@
-package downcasting;
-
-class Animal {
-
-}
