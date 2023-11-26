@@ -1,10 +1,19 @@
 package minwooChapter5_Student;
 
 public class Person {
-	String name;
+//	아래 public 을 private 으로 변경 해서 사용
+//	public String name;
+	private String name;
+//	private 으로 선언한 변수를 사용하기 위해서 아래 처럼 get,set 을 이용해 외부에서 사용할수 있게 한다 .
 	float height;
 	float weight;
 	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
 	public Person(String pname) {
 		name = pname;
 	}
