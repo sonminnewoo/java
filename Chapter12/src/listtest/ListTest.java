@@ -10,12 +10,26 @@ public class ListTest {
 		ArrayList<Integer> arrayList = new ArrayList<Integer>();
 		arrayList.add(1);
 		arrayList.add(1);
-		System.out.println(arrayList.get(0));
+		arrayList.add(1);
 		System.out.println(arrayList.toString());
 		
 		Vector<String> vector = new Vector<String>();
 		vector.add("vector 첫번째 데이터");
 		System.out.println(vector.get(0));
+		
+		int [] arr = new int[6];
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

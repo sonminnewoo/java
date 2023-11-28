@@ -10,20 +10,20 @@ public class StringClassTest {
 		// TODO Auto-generated method stub
 		Class strClass = Class.forName("java.lang.String");
 		
-//		생성자이름확인하기
+		//생성자 이름 확인하기
 		Constructor[] cons = strClass.getConstructors();
 		for(Constructor c : cons) {
 			System.out.println(c);
 		}
-		
-//		필드이름확인하기
 		System.out.println();
+		//필드 이름 확인하기
 		Field[] fields = strClass.getFields();
 		for(Field f : fields) {
 			System.out.println(f);
 		}
 		System.out.println();
-//		메서드이름확인하기
+		
+		//메서드 이름 확인하기
 		Method[] methods = strClass.getMethods();
 		for(Method m : methods) {
 			System.out.println(m);
@@ -31,3 +31,15 @@ public class StringClassTest {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+

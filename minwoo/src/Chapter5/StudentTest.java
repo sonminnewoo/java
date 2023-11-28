@@ -1,4 +1,4 @@
-package minwooChapter5_Student;
+package Chapter5;
 
 //	Student 클래스 를 실행하기 위한 테스트 클래스 //같은 클래스에 위치 시켜야 한다 
 public class StudentTest {

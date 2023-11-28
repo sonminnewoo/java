@@ -1,7 +1,6 @@
 package generics;
 
-public class Point<T, V> {
-	
+public class Point<T,V> {
 	T x;
 	V y;
 	
@@ -9,12 +8,11 @@ public class Point<T, V> {
 		this.x = x;
 		this.y = y;
 	}
-	
-	public  T getX() {
-			return x;
+	public T getX() {
+		return x;
 	}
-
+	
 	public V getY() {
 		return y;
-    }
+	}
 }

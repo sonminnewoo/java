@@ -1,4 +1,4 @@
-package minwooChapter5_Student;
+package Chapter5;
 
 public class Person {
 //	아래 public 을 private 으로 변경 해서 사용

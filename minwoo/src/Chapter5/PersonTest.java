@@ -1,4 +1,4 @@
-package minwooChapter5_Student;
+package Chapter5;
 
 class Subject {
 	String sName;
@@ -65,5 +65,4 @@ public class PersonTest {
 //		이런식으로 private,protected 처럼 하는 이유는 데이터의 접근을제한하여 권한있는 클래스 에서만 설정 하도록해
 //		정보 오류를 막을수 있다 . 어떤달은 31 일 까지 인데 29일로 일수가 변경되면 안되는것처럼 , 이런것을 '정보은닉' 이라고 한다.
 	}
-	
 }

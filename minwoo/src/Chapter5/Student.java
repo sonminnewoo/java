@@ -1,4 +1,4 @@
-package minwooChapter5_Student;
+package Chapter5;
 
 import java.util.Scanner;
 

@@ -12,10 +12,17 @@ public class HashSetTest {
 		hashSet.add(new String("홍연의"));
 		hashSet.add(new String("강감찬"));
 		hashSet.add(new String("강감찬"));
-		System.out.println(hashSet);
+		
+		System.out.println(hashSet.toString());
+		
 		for(String str : hashSet) {
-			System.out.println(str.hashCode() + " , "+System.identityHashCode(str));
+			System.out.println(str.hashCode() + "," +System.identityHashCode(str));
 		}
 	}
 
 }
+
+
+
+
+

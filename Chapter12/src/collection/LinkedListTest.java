@@ -12,9 +12,9 @@ public class LinkedListTest {
 		myList.add("B");
 		myList.add("C");
 		
-		System.out.println();
+		System.out.println(myList);
 		
-		myList.add(1,"D");
+		myList.add(1,"A");
 		System.out.println(myList);
 		
 		myList.addFirst("0");
@@ -25,3 +25,10 @@ public class LinkedListTest {
 	}
 
 }
+
+
+
+
+
+
+

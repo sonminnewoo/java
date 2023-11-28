@@ -6,20 +6,27 @@ public class MemberHashSetTest {
 		// TODO Auto-generated method stub
 		MemberHashSet memberHashSet = new MemberHashSet();
 		
-		Member memberlee = new Member(1001, "이지원");
-		Member memberson = new Member(1002, "손민국");
-		Member memberpark = new Member(1003, "박서현");
+		Member lee = new Member(1001, "이지원");
+		Member son = new Member(1002, "손민국");
+		Member park = new Member(1003, "박서훤");
 		
-		memberHashSet.addMember(memberlee);
-		memberHashSet.addMember(memberson);
-		memberHashSet.addMember(memberpark);
-		
+		memberHashSet.addMember(lee);
+		memberHashSet.addMember(son);
+		memberHashSet.addMember(park);
 		memberHashSet.showAllMember();
 		
-		Member memberHong = new Member(1003,"홀길동");
-		memberHashSet.addMember(memberHong);
+		Member hong = new Member(1003, "홍길동");
+		memberHashSet.addMember(hong);
+		memberHashSet.showAllMember();
+		
+		memberHashSet.removeMember(1001);
 		memberHashSet.showAllMember();
 		
 	}
 
 }
+
+
+
+
+

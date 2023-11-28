@@ -1,4 +1,4 @@
-package minwooChapter5_Student;
+package Chapter5;
 
 public class StudentFinalTest {
 

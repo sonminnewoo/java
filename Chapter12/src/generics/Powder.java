@@ -1,23 +1,11 @@
 package generics;
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> origin/main
 public class Powder extends Material{
-		
 	public void doPrinting() {
-		System.out.println("Powder Àç·á·Î Ãâ·ÂÇÕ´Ï´Ù");
+		System.out.println("Powder ìž¬ë£Œë¡œ ì¶œë ¥í•©ë‹ˆë‹¤.");
 	}
-	
+	@Override
 	public String toString() {
-		return "Àç·á´Â Powder ÀÔ´Ï´Ù";
+		return "ìž¬ë£ŒëŠ” Powder ìž…ë‹ˆë‹¤.";
 	}
-<<<<<<< HEAD
-=======
-=======
-public class Powder {
-
->>>>>>> origin/main
->>>>>>> origin/main
 }
