@@ -8,9 +8,26 @@ public class BookShelfTest {
 		shelfQueue.enQueue("태백산맥 1");
 		shelfQueue.enQueue("태백산맥 2");
 		shelfQueue.enQueue("태백산맥 3");
-//		1,2,3 가져 오기 위해 deQueue 로 실행 
 		System.out.println(shelfQueue.deQueue());
 		System.out.println(shelfQueue.deQueue());
 		System.out.println(shelfQueue.deQueue());
+		
+		Stack shelfStack = new BookShelf();
+		shelfStack.push("태백산맥1");
+		shelfStack.push("태백산맥2");
+		shelfStack.push("태백산맥3");
+		System.out.println(shelfStack.pop());
+		System.out.println(shelfStack.pop());
+		System.out.println(shelfStack.pop());
 	}
+
 }
+
+
+
+
+
+
+
+
+

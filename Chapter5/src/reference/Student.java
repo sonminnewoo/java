@@ -27,12 +27,8 @@ public class Student {
 	public static void main(String [] args) {
 		Student kim = new Student(1001, "이순신");
 		kim.korea.subjectTitle = "국어";
-		kim.math.subjectTitle = "수학";
-		kim.math.teacherName = "손민우";
-		kim.math.score = 80;
+		kim.math.score = 100;
 		System.out.println(kim.korea.subjectTitle);
-		System.out.println(kim.studentName + kim.studentID + 
-				kim.math.score + kim.math.teacherName + kim.math.subjectTitle );
 	}
 	
 }

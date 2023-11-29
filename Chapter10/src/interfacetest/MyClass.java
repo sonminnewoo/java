@@ -1,12 +1,11 @@
 package interfacetest;
 
-public class MyClass implements MyInterface {
+public class MyClass implements MyInterface{
 
 	@Override
 	public void x() {
-		System.out.println("x() 실행");
 		// TODO Auto-generated method stub
-		
+		System.out.println("x() 실행");
 	}
 
 	@Override
@@ -20,5 +19,5 @@ public class MyClass implements MyInterface {
 		// TODO Auto-generated method stub
 		System.out.println("myMethod() 실행");
 	}
-	
+
 }

@@ -1,7 +1,6 @@
 package cooperation;
 
 public class Subway {
-	
 	public int lineNumber;
 	public int passengerCount;
 	public int money;

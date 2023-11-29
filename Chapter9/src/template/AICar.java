@@ -21,6 +21,7 @@ public class AICar extends Car{
 		System.out.println("비나 눈이오면 자동으로 와이퍼를 작동합니다.");
 	}
 	
+	
 }
 
 

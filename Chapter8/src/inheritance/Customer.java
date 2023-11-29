@@ -1,40 +1,25 @@
 package inheritance;
 
 public class Customer {
-
-//	public static void main(String[] args) {
-//		// TODO Auto-generated method stub
-
-//	private int customerID;
-//	private String customerName;
-//	private String customerGrade;
-//	위 모양은 자신의 클래스 내부에서 만 사용할수 있지만 ,
-//	protected 상속받은 클래스 까지 사용할수 있다.
+	//protected : 상속을 받은 클래스는 사용할 수 있도록 하는 접근 제어자
+	protected int customerID; // 고객 아이디
+	protected String customerName; // 고객 이름
+	protected String customerGrade; //고객 등급
+	int bonusPoint; //적립금
+	double bonusRatio; //적립 비율
 	
-//	상속자 클래스에 공유되는 부분 
-	
-	protected int customerID;
-	protected String customerName;
-	protected String customerGrade;
-	int bonusPoint;;
-	double bonusRatio;
-	
-
-// 각 클래스 별 다름 
 //	public Customer() {
 //		customerGrade = "SILVER";
 //		bonusRatio = 0.01;
 //		System.out.println("Customer() 생성자 실행");
 //	}
-//	
-//	아래를 사용 하면 위를 주석처리 한다 
-
-	public Customer(int CustomerID, String customerName) {
-		this.customerID = customerID;
-		this.customerName = customerName;
+	
+	public Customer(int customerID, String customerName) {
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
-//		System.out.println("Customer(int,String) 생성자 실행");
+		this.customerID = customerID;
+		this.customerName = customerName;
+		//System.out.println("Customer(int, String) 생성자 실행");
 	}
 	
 	public int calcPrice(int price) {
@@ -42,16 +27,11 @@ public class Customer {
 		return price;
 	}
 	
-
 	public String showCustomerInfo() {
-		return customerName + "님의 등급은"+ customerGrade+"이며"
-				+ ", 보너스 포인트는 " +  bonusPoint + "입니다";
-		//끝에 세미 콜론을 사용해야한다 
-		
+		return customerName + " 님의 등급은 "+customerGrade+" 이며"
+				+ ", 보너스 포인트는" +bonusPoint+" 입니다.";
+				
 	}
-	
-//	자동 완성으로 나오게 된다
-	
 	public int getCustomerID() {
 		return customerID;
 	}
@@ -82,7 +62,14 @@ public class Customer {
 	public void setBonusRatio(double bonusRatio) {
 		this.bonusRatio = bonusRatio;
 	}
-
 	
 }
-//}
+
+
+
+
+
+
+
+
+

@@ -8,17 +8,14 @@ public class MyClassTest {
 		myClass.x();
 		myClass.y();
 		myClass.myMethod();
-		
 		X x = myClass;
 		x.x();
-//		x.y();
-//		x.myMethod();
-		
+		//x.y();
+		//x.myMethod();
 		Y y = myClass;
 		y.y();
-//		y.x();
-//		y.myMethod();
-		
+		//y.x();
+		//y.myMethod();
 		MyInterface myInterface = myClass;
 		myInterface.x();
 		myInterface.y();
@@ -26,3 +23,10 @@ public class MyClassTest {
 	}
 
 }
+
+
+
+
+
+
+

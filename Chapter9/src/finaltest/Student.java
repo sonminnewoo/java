@@ -1,7 +1,6 @@
 package finaltest;
 
-public class Student {
-//	public final class Student {
+public final class Student {
 	int studentID;
 	String studentName;
 	

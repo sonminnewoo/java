@@ -1,7 +1,7 @@
 package scheduler;
 
-public class PriorityAllocation implements Scheduler {
-	
+public class PriorityAllocation implements Scheduler{
+
 	@Override
 	public void getNextCall() {
 		// TODO Auto-generated method stub
@@ -11,7 +11,7 @@ public class PriorityAllocation implements Scheduler {
 	@Override
 	public void sendCallToAgent() {
 		// TODO Auto-generated method stub
-		System.out.println("업무 Skill 이 높은 상담원에게 우선적으로 배분합니다.");
+		System.out.println("업무 Skill이 높은 상담원에게 우선적으로 배분합니다.");
 	}
 
 }

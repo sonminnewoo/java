@@ -1,41 +1,6 @@
 package array;
+
 public class BookTest {
-
-	private String bookName;
-	private String author;
-	
-	public BookTest() {
-		bookName = "이름없음";
-		author = "저자없음";
-	}
-	
-	public BookTest(String bookName, String author) {
-		this.bookName = bookName;
-		this.author = author;
-	}
-
-	public void showInfo() {
-		System.out.println(bookName + "," + author);
-	}
-	
-	public String getBookName() {
-		return bookName;
-	}
-
-	public void setBookName(String bookName) {
-		this.bookName = bookName;
-	}
-
-	public String getAuthor() {
-		return author;
-	}
-
-	public void setAuthor(String author) {
-		this.author = author;
-	}
-	
-
-
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

@@ -7,6 +7,9 @@ public class Card {
 		serialNum++;
 		cardNum = serialNum;
 	}
+	public Card(int companySerialNum) {
+		cardNum = companySerialNum;
+	}
 	public void showInfo() {
 		System.out.println(cardNum);
 	}

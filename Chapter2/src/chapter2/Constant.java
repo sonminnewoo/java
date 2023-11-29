@@ -11,7 +11,6 @@ public class Constant {
 		// VALUE = 10;
 		final double PI;
 		PI = 3.14;
-		System.out.println(PI);
 		final int MIN_NUM = 0;
 		final int MAX_NUM = 2100000000;
 		final String MESSAGE = "내일은 화창한 날입니다.";

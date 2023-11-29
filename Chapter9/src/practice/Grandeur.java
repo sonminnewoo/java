@@ -1,35 +1,29 @@
 package practice;
 
 public class Grandeur extends Car {
-	
 	String carName = "Grandeur";
-
 	@Override
-		public void startCar() {
-			// TODO Auto-generated method stub
-			System.out.println(carName+"시동을 켭니다");
-		}
+	public void startCar() {
+		// TODO Auto-generated method stub
+		System.out.println(carName + " 시동을 켭니다.");
+	}
+
 	@Override
 	public void drive() {
 		// TODO Auto-generated method stub
-		System.out.println(carName+"운전을 합니다");
+		System.out.println(carName + " 달립니다.");
 	}
+
 	@Override
-		public void stop() {
-			// TODO Auto-generated method stub
-		System.out.println(carName+"시동을 멈춥니다");
-			
-		}
-	@Override
-		public void turnoff() {
-			// TODO Auto-generated method stub
-		System.out.println(carName+"시동을 끕니다");
-			
-		}
-	@Override
-	public void showLevelMessage() {
+	public void stop() {
 		// TODO Auto-generated method stub
-	System.out.println("세차를 합니다");
-		
+		System.out.println(carName + " 멈춥니다.");
 	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+		System.out.println(carName + " 시동을 끕니다.");
+	}
+
 }

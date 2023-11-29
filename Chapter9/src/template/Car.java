@@ -21,7 +21,6 @@ public abstract class Car {
 		stop();
 		turnOff();
 	}
-//	이렇게 메소드도 final 을 사용해서 변경 못하게 할수 있다 
 }
 
 

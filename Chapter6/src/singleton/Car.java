@@ -11,5 +11,4 @@ public class Car {
 	public int getCarNum() {
 		return carNum;
 	}
-	
 }

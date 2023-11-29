@@ -1,13 +1,17 @@
 package scheduler;
 
-public class AgentGetCall implements Scheduler {
-	
+public class AgentGetCall implements Scheduler{
+
+	@Override
 	public void getNextCall() {
-		System.out.println("안녕");
+		// TODO Auto-generated method stub
+		System.out.println("상담원이 다음 전화 요청");
 	}
+
 	@Override
 	public void sendCallToAgent() {
 		// TODO Auto-generated method stub
-		System.out.println("디지몬");
+		System.out.println("상담원이 전화 상담을 가져 갔습니다.");
 	}
+
 }
