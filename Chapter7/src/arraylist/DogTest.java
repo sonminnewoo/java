@@ -8,16 +8,23 @@ public class DogTest {
 		// TODO Auto-generated method stub
 		
 		ArrayList<Dog> dogList = new ArrayList<Dog>();
+//		생성자를 이용해서 ,생성자의 형태로 리스트를 만드는 구문
 		
 		Dog [] dog = new Dog[5];
+//		dog 이름으로 5개 배열 을 가진 dog 형식의 배열이 생김 
+//		ArrayList<Dog> dogList = new ArrayList<Dog>(); 을 적어줘야 사용할수있다.
 		
 //		String dogname = "";
 //		String dogInfo = "";
 		
-		for(int i = 0; i<=dog.length ; i++) {
+		for(int i = 0; i<dog.length ; i++) {
 			
-			dog[i] = new Dog("","") ;
-			System.out.println(dog[i]);
+			dog[0] = new Dog("손민우","멋져1") ;
+			dog[1] = new Dog("손민우","멋져2") ;
+			dog[2] = new Dog("손민우","멋져3") ;
+			dog[3] = new Dog("손민우","멋져4") ;
+			dog[4] = new Dog("손민우","멋져5") ;
+			System.out.println(dog[i].showInfo());
 			dog[i].showInfo();
 			
 //			package remind;
