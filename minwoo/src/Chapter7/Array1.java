@@ -10,7 +10,7 @@ public class Array1 {
 		System.out.println(min[0]);
 		
 		for (int i =0; i<min.length; i++) {
-			System.out.println(min[i]);
+			System.out.print(min[i]);
 			System.out.println(min2[i]);
 		}
 		for(int i : min) {
