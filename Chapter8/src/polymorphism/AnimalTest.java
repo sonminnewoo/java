@@ -86,7 +86,7 @@ public class AnimalTest {
 //		아래든 Anlmal d형식으로 human 이라는 변수 이름으로 생성하고 new Tiger() ; 로
 //		tuger 클래스를 생성 해준다 . 그 변수를 지정하고 instanceof 을 이용해서
 //		생성한 클래스 를 확인해서 일치하는 클래스 명을 확인 그러면 그 클래스 형태로 지정한 이름대로 
-//		
+//		Eagle cEagle = (Eagle)human;
 //		생성자로 생성자를 생성하고 , 그생성자로 , 메서드를 출력하는데 
 		
 //		이렇게 메서드 안에 
