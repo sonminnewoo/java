@@ -1,5 +1,7 @@
 package practice;
 
+import arraylist.Dog;
+
 public class DogTest {
 
 	public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class DogTest {
 		dogs[4] = new Dog("진도4","진돗개");
 		
 		for(int i=0; i<dogs.length; i++) {
-			System.out.println(dogs[i].showDogInfo()); 
+			System.out.println(dogs[i].showInfo()); 
 		}
 	}
 
