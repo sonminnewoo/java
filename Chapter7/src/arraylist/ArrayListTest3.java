@@ -12,14 +12,13 @@ public class ArrayListTest3 {
 		ArrayList<Book> bookList = new ArrayList<Book>();
 //		<제네릭>
 		
-		bookList.add(new Book("태백산1","손민우"));
-		bookList.add(new Book("태백산2","손민우"));
-		bookList.add(new Book("태백산3","손민우"));
-		bookList.add(new Book("태백산4","손민우"));
+		bookList.add(new Book("태백산","손민우"));
+		bookList.add(new Book("태백산","손민우"));
+		bookList.add(new Book("태백산","손민우"));
+		bookList.add(new Book("태백산","손민우"));
 		
 		for(int i = 0 ; i<bookList.size(); i++) {
 			bookList.get(i).showInfo();
-			System.out.println(".");
 //			
 			Book book = bookList.get(i);
 			book.showInfo();

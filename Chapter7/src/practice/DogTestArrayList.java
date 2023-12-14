@@ -2,8 +2,6 @@ package practice;
 
 import java.util.ArrayList;
 
-import arraylist.Dog;
-
 public class DogTestArrayList {
 	ArrayList<Dog> dogList = new ArrayList<Dog>();
 	public void addDog(String name, String type) {
@@ -11,7 +9,7 @@ public class DogTestArrayList {
 	}
 	public void showDogList() {
 		for(Dog dog : dogList) {
-			System.out.println(dog.showInfo());
+			System.out.println(dog.showDogInfo());
 		}
 	}
 	public static void main(String[] args) {

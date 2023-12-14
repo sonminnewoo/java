@@ -21,5 +21,9 @@ public class Variable1 {
 		int level4;
 		level4 = 0;
 		System.out.println(level4);
+		int x = 10 , y=2,z=2;
+		z=x/y;
+		z=z++;
+		System.out.println(z);
 	}
 }
