@@ -8,9 +8,9 @@ public class Player {
 		level.showLevelMessage();
 	}
 	
-	public PlayerLevel getLevel() {
-		return level;
-	}
+//	public PlayerLevel getLevel() {
+//		return level;
+//	}
 	public void upgradeLevel(PlayerLevel level) {
 		this.level = level;
 		level.showLevelMessage();
@@ -19,11 +19,3 @@ public class Player {
 		level.go(count);
 	}
 }
-
-
-
-
-
-
-
-
