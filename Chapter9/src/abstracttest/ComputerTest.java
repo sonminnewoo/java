@@ -16,6 +16,12 @@ public class ComputerTest {
 		noteBook.display();
 		noteBook.typing();
 		noteBook.turnOff();
+		System.out.println("--------------------");
+		Computer SamsungNotebook1 = new SamsungNotebook();
+		SamsungNotebook1.display();
+		SamsungNotebook1.turnOn();
+		SamsungNotebook1.turnOff();
+		SamsungNotebook1.typing();
 	}
 
 }
